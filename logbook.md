@@ -145,3 +145,15 @@ Casos de prueba:
         Saldo pendiente: $476000
 
 
+MiniReto 4 · Asistente de taquilla v0.1: la cuenta del grupo
+
+1. 
+2. La diferencia principal es que Trunc() elimina la parte decimal de un número sin importar el valor de sus decimales, mientras que Redon() (o Redondear) aproxima el número al entero más cercano evaluando si los decimales alcanzan o superan la mitad
+
+
+Fórmula utilizada: Trunc((N + 99) / 100) * 100
+¿Por qué funciona?
+- Al sumar 99, cualquier valor que exceda una centena exacta (ej. 201) es forzado a alcanzar el rango de la siguiente centena (300).
+- Al dividir por 100, movemos la coma dos posiciones a la izquierda (ej. 300 / 100 = 3).
+- Trunc() elimina los decimales restantes, asegurando que nos quedemos solo con el multiplicador entero de la centena superior.
+- Al multiplicar por 100, restauramos el número a su valor de centena final.
