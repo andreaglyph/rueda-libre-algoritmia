@@ -107,3 +107,41 @@ Casos de prueba:
         Cantidad de horas:
         > -2
         Hola Daniel: Tu alquiler de -2 hora cuesta $-20000
+
+
+MiniReto 3 · Recorridos guiados: del pseudocódigo al diagrama de flujo
+ 
+Casos de prueba:
+    1. 
+        Elige el numero del recorrido que deseas:
+        1. Rios y parques
+        2. Sabores de Barrio
+        3. Reto Las Palmas
+        > 2
+        Recorrido: Sabores de Barrio
+        Distancia: 18 km
+        Duracion: 3 horas
+        Precio por persona: $60000
+        Ingresa la cantidad de personas:
+        > 4
+        Valor total: $240000
+        Anticipo del 30%: $72000
+        Saldo pendiente: $168000
+    
+    2. 
+        Elige el numero del recorrido que deseas:
+        1. Rios y parques
+        2. Sabores de Barrio
+        3. Reto Las Palmas
+        > 3
+        Recorrido: Reto Las Palmas
+        Distancia: 25 km
+        Duracion: 4 horas
+        Precio por persona: $85000
+        Ingresa la cantidad de personas:
+        > 8
+        Valor total: $680000
+        Anticipo del 30%: $204000
+        Saldo pendiente: $476000
+
+
